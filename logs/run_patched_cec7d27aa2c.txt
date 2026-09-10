@@ -1,0 +1,84 @@
+Launching lib/main.dart on macOS in debug mode...
+Building macOS application...                                   
+warning: Run script build phase 'Run Script' will be run during every build because it does not specify any outputs. To address this issue, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'Flutter Assemble' from project 'Runner')
+✓ Built build/macos/Build/Products/Debug/fullscreen_repro.app
+[IMPORTANT:flutter/shell/platform/embedder/embedder_surface_metal_impeller.mm(53)] Using the Impeller rendering backend (MetalSDF).
+Syncing files to device macOS...                                    35ms
+
+Flutter run key commands.
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on macOS is available at: http://127.0.0.1:61208/GkcSRNpQ4Pc=/
+The Flutter DevTools debugger and profiler on macOS is available at: http://127.0.0.1:61208/GkcSRNpQ4Pc=/devtools/?uri=ws://127.0.0.1:61208/GkcSRNpQ4Pc=/ws
+2026-09-09 20:59:10.682 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #1
+2026-09-09 20:59:13.182 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #2
+2026-09-09 20:59:15.682 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #3
+2026-09-09 20:59:18.182 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #4
+2026-09-09 20:59:20.682 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #5
+2026-09-09 20:59:23.182 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #6
+2026-09-09 20:59:25.682 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #7
+2026-09-09 20:59:28.182 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #8
+2026-09-09 20:59:30.682 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #9
+2026-09-09 20:59:33.182 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #10
+2026-09-09 20:59:35.682 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #11
+2026-09-09 20:59:38.182 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #12
+2026-09-09 20:59:40.682 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #13
+2026-09-09 20:59:43.182 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #14
+2026-09-09 20:59:45.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #15
+2026-09-09 20:59:48.182 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #16
+2026-09-09 20:59:50.682 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #17
+2026-09-09 20:59:53.182 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #18
+2026-09-09 20:59:55.682 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #19
+2026-09-09 20:59:58.182 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #20
+2026-09-09 21:00:00.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #21
+2026-09-09 21:00:03.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #22
+2026-09-09 21:00:05.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #23
+2026-09-09 21:00:08.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #24
+2026-09-09 21:00:10.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #25
+2026-09-09 21:00:13.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #26
+2026-09-09 21:00:15.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #27
+2026-09-09 21:00:18.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #28
+2026-09-09 21:00:20.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #29
+2026-09-09 21:00:23.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #30
+2026-09-09 21:00:25.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #31
+2026-09-09 21:00:28.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #32
+2026-09-09 21:00:30.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #33
+2026-09-09 21:00:33.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #34
+2026-09-09 21:00:35.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #35
+2026-09-09 21:00:38.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #36
+2026-09-09 21:00:40.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #37
+2026-09-09 21:00:43.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #38
+2026-09-09 21:00:45.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #39
+2026-09-09 21:00:48.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #40
+2026-09-09 21:00:50.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #41
+2026-09-09 21:00:53.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #42
+2026-09-09 21:00:55.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #43
+2026-09-09 21:00:58.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #44
+2026-09-09 21:01:00.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #45
+2026-09-09 21:01:03.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #46
+2026-09-09 21:01:05.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #47
+2026-09-09 21:01:08.180 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #48
+2026-09-09 21:01:10.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #49
+2026-09-09 21:01:13.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #50
+2026-09-09 21:01:15.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #51
+2026-09-09 21:01:18.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #52
+2026-09-09 21:01:20.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #53
+2026-09-09 21:01:23.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #54
+2026-09-09 21:01:25.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #55
+2026-09-09 21:01:28.180 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #56
+2026-09-09 21:01:30.681 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #57
+2026-09-09 21:01:33.181 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #58
+2026-09-09 21:01:35.680 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #59
+2026-09-09 21:01:38.180 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #60
+2026-09-09 21:01:40.680 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #61
+2026-09-09 21:01:43.180 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #62
+2026-09-09 21:01:45.680 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #63
+2026-09-09 21:01:48.180 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #64
+2026-09-09 21:01:50.680 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #65
+2026-09-09 21:01:53.180 fullscreen_repro[81467:3360972] REPRO toggleFullScreen #66
+Lost connection to device.

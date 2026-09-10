@@ -1,0 +1,7 @@
+[IMPORTANT:flutter/shell/platform/embedder/embedder_surface_metal_impeller.mm(53)] Using the Impeller rendering backend (MetalSDF).
+flutter: The Dart VM service is listening on http://127.0.0.1:61820/_QNdNaGRXlE=/
+2026-09-09 21:14:23.397 fullscreen_repro[92626:3414658] REPRO flip #1: 800x600 -> 799x599 -> back (front surface held in use: 0)
+2026-09-09 21:14:25.897 fullscreen_repro[92626:3414658] REPRO flip #2: 800x600 -> 799x599 -> back (front surface held in use: 0)
+[ERROR:flutter/impeller/renderer/backend/metal/texture_mtl.mm(36)] Break on 'ImpellerValidationBreak' to inspect point of failure: The texture and its descriptor disagree about its size.
+[ERROR:flutter/impeller/core/formats.cc(48)] Break on 'ImpellerValidationBreak' to inspect point of failure: Store action needs resolve but no valid resolve texture specified.
+[FATAL:flutter/shell/platform/embedder/embedder_external_view_embedder.cc(365)] Check failed: render_target_->GetRenderTargetSize() == c->GetRenderSurfaceSize(). 
