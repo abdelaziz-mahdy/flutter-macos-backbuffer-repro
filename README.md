@@ -39,7 +39,7 @@ engine is preferable: it prints the Impeller validation line and trips a size
 
 See `logs/` for the raw output of each run. Engine `4e6768eca70` = upstream
 `master` before the fix; `cec7d27aa2c` = with the fix
-(flutter/flutter PR: __PR_LINK__).
+(flutter/flutter PR: https://github.com/flutter/flutter/pull/192522).
 
 | Engine | Mode | Duration | Size-mismatch validation lines | Outcome |
 |---|---|---|---|---|
