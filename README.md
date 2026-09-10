@@ -47,7 +47,8 @@ See `logs/` for the raw output of each run. Engine `4e6768eca70` = upstream
 | 4e6768eca70 (unfixed) | flip v1 (restore on next run-loop turn), instrumented cache | 11 flips / 28 s | 1 | **crash**: `SURFCACHE req=1600x1200 REUSED got=1598x1198 <<< SIZE MISMATCH` → `The texture and its descriptor disagree about its size.` → `Check failed: render_target_->GetRenderTargetSize() == c->GetRenderSurfaceSize()` |
 | 4e6768eca70 (unfixed) | flip v1, no instrumentation | 2 flips / ~5 s | 1 | **crash**, same two lines; crash report `logs/crash_base_flip_v1_4e6768eca70.ips` (`io.flutter.raster`, abort in `Layer::RenderFlutterContentsImpeller`) |
 | 4e6768eca70 (unfixed) | flip (current, synchronous shrink+restore) | 3 runs × 2 flips / ≤7 s each | 1 per run | **crash on flip 2 in 3/3 runs** (`logs/run_base_flip_v2_run{1,2,3}_4e6768eca70.txt`) |
-| cec7d27aa2c (fixed) | flip | __FIX_FLIPS__ | __FIX_LINES__ | __FIX_OUTCOME__ |
+| cec7d27aa2c (fixed) | flip | 3 runs × 60 s (23–24 flips each) | 0 | no crash, no graceful-skip lines either (`logs/run_fixed_flip_run{1,2,3}_cec7d27aa2c.txt`) |
+| cec7d27aa2c (fixed) | flip | 97 flips / 240 s | 0 | no crash (`logs/run_fixed_flip_long_cec7d27aa2c.txt`) |
 
 The "instrumented cache" run added temporary `NSLog`s to
 `FlutterSurfaceManager.mm` (`surfaceForSize:` / `returnSurfaces:`) to show the

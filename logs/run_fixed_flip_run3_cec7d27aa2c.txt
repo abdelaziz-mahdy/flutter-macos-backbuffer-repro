@@ -1,0 +1,26 @@
+[IMPORTANT:flutter/shell/platform/embedder/embedder_surface_metal_impeller.mm(53)] Using the Impeller rendering backend (MetalSDF).
+flutter: The Dart VM service is listening on http://127.0.0.1:62049/RTbS03PcbO0=/
+2026-09-09 21:18:12.065 fullscreen_repro[95195:3425887] REPRO flip #1: 800x600 -> 799x599 -> back
+2026-09-09 21:18:14.564 fullscreen_repro[95195:3425887] REPRO flip #2: 800x600 -> 799x599 -> back
+2026-09-09 21:18:17.064 fullscreen_repro[95195:3425887] REPRO flip #3: 800x600 -> 799x599 -> back
+2026-09-09 21:18:19.565 fullscreen_repro[95195:3425887] REPRO flip #4: 800x600 -> 799x599 -> back
+2026-09-09 21:18:22.064 fullscreen_repro[95195:3425887] REPRO flip #5: 800x600 -> 799x599 -> back
+2026-09-09 21:18:24.564 fullscreen_repro[95195:3425887] REPRO flip #6: 800x600 -> 799x599 -> back
+2026-09-09 21:18:27.063 fullscreen_repro[95195:3425887] REPRO flip #7: 800x600 -> 799x599 -> back
+2026-09-09 21:18:29.565 fullscreen_repro[95195:3425887] REPRO flip #8: 800x600 -> 799x599 -> back
+2026-09-09 21:18:32.063 fullscreen_repro[95195:3425887] REPRO flip #9: 800x600 -> 799x599 -> back
+2026-09-09 21:18:34.564 fullscreen_repro[95195:3425887] REPRO flip #10: 800x600 -> 799x599 -> back
+2026-09-09 21:18:37.065 fullscreen_repro[95195:3425887] REPRO flip #11: 800x600 -> 799x599 -> back
+2026-09-09 21:18:39.563 fullscreen_repro[95195:3425887] REPRO flip #12: 800x600 -> 799x599 -> back
+2026-09-09 21:18:42.063 fullscreen_repro[95195:3425887] REPRO flip #13: 800x600 -> 799x599 -> back
+2026-09-09 21:18:44.563 fullscreen_repro[95195:3425887] REPRO flip #14: 800x600 -> 799x599 -> back
+2026-09-09 21:18:47.063 fullscreen_repro[95195:3425887] REPRO flip #15: 800x600 -> 799x599 -> back
+2026-09-09 21:18:49.563 fullscreen_repro[95195:3425887] REPRO flip #16: 800x600 -> 799x599 -> back
+2026-09-09 21:18:52.063 fullscreen_repro[95195:3425887] REPRO flip #17: 800x600 -> 799x599 -> back
+2026-09-09 21:18:54.563 fullscreen_repro[95195:3425887] REPRO flip #18: 800x600 -> 799x599 -> back
+2026-09-09 21:18:57.063 fullscreen_repro[95195:3425887] REPRO flip #19: 800x600 -> 799x599 -> back
+2026-09-09 21:18:59.565 fullscreen_repro[95195:3425887] REPRO flip #20: 800x600 -> 799x599 -> back
+2026-09-09 21:19:02.063 fullscreen_repro[95195:3425887] REPRO flip #21: 800x600 -> 799x599 -> back
+2026-09-09 21:19:04.563 fullscreen_repro[95195:3425887] REPRO flip #22: 800x600 -> 799x599 -> back
+2026-09-09 21:19:07.063 fullscreen_repro[95195:3425887] REPRO flip #23: 800x600 -> 799x599 -> back
+2026-09-09 21:19:09.563 fullscreen_repro[95195:3425887] REPRO flip #24: 800x600 -> 799x599 -> back
