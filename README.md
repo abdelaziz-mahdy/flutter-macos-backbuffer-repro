@@ -38,7 +38,8 @@ engine is preferable: it prints the Impeller validation line and trips a size
 ## Results
 
 See `logs/` for the raw output of each run. Engine `4e6768eca70` = upstream
-`master` before the fix; `cec7d27aa2c` = with the fix
+`master` before the fix; `cec7d27aa2c` = first version of the fix (filter at `removeSurfaceForSize:`);
+`a8073db1e1d` = final version after review (stale surfaces refused in `returnSurfaces:`)
 (flutter/flutter PR: https://github.com/flutter/flutter/pull/192522).
 
 | Engine | Mode | Duration | Size-mismatch validation lines | Outcome |
@@ -54,3 +55,4 @@ The "instrumented cache" run added temporary `NSLog`s to
 `FlutterSurfaceManager.mm` (`surfaceForSize:` / `returnSurfaces:`) to show the
 cache returning the wrong-size surface; that instrumentation is not part of the
 fix.
+| a8073db1e1d (fixed, final) | flip | 3 runs × 60 s (23–24 flips) + 97 flips / 240 s | 0 | no crash (`logs/run_fixed_v2_flip_*_a8073db1e1d.txt`) |
