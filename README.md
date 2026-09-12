@@ -50,9 +50,9 @@ See `logs/` for the raw output of each run. Engine `4e6768eca70` = upstream
 | 4e6768eca70 (unfixed) | flip (current, synchronous shrink+restore) | 3 runs × 2 flips / ≤7 s each | 1 per run | **crash on flip 2 in 3/3 runs** (`logs/run_base_flip_v2_run{1,2,3}_4e6768eca70.txt`) |
 | cec7d27aa2c (fixed) | flip | 3 runs × 60 s (23–24 flips each) | 0 | no crash, no graceful-skip lines either (`logs/run_fixed_flip_run{1,2,3}_cec7d27aa2c.txt`) |
 | cec7d27aa2c (fixed) | flip | 97 flips / 240 s | 0 | no crash (`logs/run_fixed_flip_long_cec7d27aa2c.txt`) |
+| a8073db1e1d (fixed, final) | flip | 3 runs × 60 s (23–24 flips) + 97 flips / 240 s | 0 | no crash (`logs/run_fixed_v2_flip_*_a8073db1e1d.txt`) |
 
 The "instrumented cache" run added temporary `NSLog`s to
 `FlutterSurfaceManager.mm` (`surfaceForSize:` / `returnSurfaces:`) to show the
 cache returning the wrong-size surface; that instrumentation is not part of the
 fix.
-| a8073db1e1d (fixed, final) | flip | 3 runs × 60 s (23–24 flips) + 97 flips / 240 s | 0 | no crash (`logs/run_fixed_v2_flip_*_a8073db1e1d.txt`) |
